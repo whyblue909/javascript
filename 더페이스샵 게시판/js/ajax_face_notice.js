@@ -11,7 +11,6 @@
     var bcnt        =  -1; //브랜드소식 카운트    
     var b           = [];  //브랜드소식 brand : b
 
-
     //목록 게시물
     var pages       = 5; //페이지당 5줄씩
     var pageBtn     = 1; //페이지버튼 번호 1 ~ ...
@@ -388,18 +387,6 @@
                     }
                 });
             });
-
-
-
-
-
-//127.0.0.1/ajax_notice17/
-//localhost/ajax_notice17/
-//192.168.0.94/ajax_notice17/
-
-
-
-
         },
         error: function(){
             alert('AJAX Error!!!');

@@ -6,7 +6,6 @@
     
     //날짜객체
 
-
     setInterval(timerFn, 1000);  //1초에 한번씩 Date() 객체 로딩
 
     function timerFn(){
@@ -17,8 +16,6 @@
             console.log('h '+ h );
             console.log('m '+ m );
             console.log('s '+ s );
-
-
 
         //6시 45분 40초
         $('.timeS').css({ transform:'rotate(' + (6*s) + 'deg)' });  //초
