@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* reset.css common.css default.css basic.css  ...등 */
+* { padding:0; margin:0; }
+html, body { width:100%; height:100%; }
+body { font:normal 14px/1 'Nanum Gothic'; color:#444; background:#fff; }
+h1,h2,h3,h4,h5,h6 { font-weight:normal; font-size:14px; }
+i,em,address { font-style:normal; }
+img { vertical-align:top; }
+header,main,footer,section,nav,aside { display:block; }
+ul { list-style:none; }
+a { color:#444; text-decoration:none; }
+.clearfix:after { content:''; display:block; clear:both; }
+.hidden { display:none; }
+.blind { display:block; text-indent:-2000px; overflow:hidden; }
+
+#wrap { width:100%; }
+/* 스킵메뉴 */
+#wrap #skip { z-index:4; position:absolute; top:0; left:0; width:100%; }
+#wrap #skip li { width:100%; }
+#wrap #skip li a { display:block; line-height:0; font-size:0; text-align:center; color:#fff; background:#222; }
+#wrap #skip li a:focus {  line-height:50px; font-size:20px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

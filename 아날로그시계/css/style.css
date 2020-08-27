@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import url("reset.css");
+@import url("font.css");
+
+
+
+#wrap {width:100%; height:1905px; background:url(../img/main_content_bg.jpg) no-repeat 0 0; background-size:cover;}
+
+.timer-container{width:100%; height:1080px; background:url(../img/main_visual_bg.jpg) no-repeat 0 0; background-size:cover;}
+.timer-wrap{position:relative; width:100%; max-width:1000px; margin:0 auto;}
+.timer-wrap>img{z-index:1; position:relative; width:100%;}
+	.temer{z-index:2; position:absolute; top:50px; left:50%; margin-left:-245px; width:100%; max-width:490px; }
+		
+		.temer>img{z-index:1; position:relative; width:100%;}
+		.temer>span{display:block; position:absolute; top:0; left:0; width:100%;transition:all 0s;}
+			.timeH{z-index:2; transform:rotate(200deg); }
+			.timeM{z-index:3; transform:rotate(240deg); }
+			.timeS{z-index:4; transform:rotate(120deg); }
+			.timeC{z-index:5;}
